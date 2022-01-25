@@ -4,7 +4,7 @@
     font-family: 'Roboto', sans-serif;
   }
 .header {
-    background-image: url("/images/heroBg.png");
+    background-image: url("../images/heroBg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,6 +151,7 @@
 }
 
 .logements {
+    display: flex;
     background-image: url("/images/Rectangle5.png");
     background-repeat: no-repeat;
     background-size: cover;
