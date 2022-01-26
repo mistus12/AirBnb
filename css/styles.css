@@ -152,6 +152,8 @@
 
 .logements {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url("../images/Rectangle5.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,7 +165,31 @@
 
 }
 
-/* .logements img {
+.logements-image {
     width: 10%;
-    height: 40%;
-} */
+    height: 35%;
+    margin-top: 6em;
+
+} 
+.logements-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+    height: 2.6em;
+    background-color: white;
+    margin-top: 4em;
+    border-radius: 0.3em;
+}
+.logements-button img {
+    width: 0.5em;
+    height: 0.5em;
+}
+
+.logements-button:hover {
+    cursor: pointer;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
